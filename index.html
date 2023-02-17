@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter+Tight:wght@100;400&family=Orbitron:wght@400;900&family=Quantico:ital,wght@0,400;1,700&family=Turret+Road:wght@200;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>styles, colors, fonts</title>
+  </head>
+
+  <body>
+    <!-- Menu -->
+    <div id="bg">
+      <h1>styles.colors.fonts</h1>
+      <br>
+      <div class="sticky">
+        <a class="button" href="#">home</a>
+        <a class="button" href="#fonts">fonts</a>
+        <a class="button" href="#colors">colors</a>
+        <a class="button" href="#purple">purple</a>
+      </div>
+      <!-- Fonts -->
+      <table id="fonts">
+        <th>
+          <h2>Fonts</h2>
+        </th>
+        <tr>
+          <th rowspan="3" class="left">
+            <h3>Header font</h3>
+            <p class="example1">'Orbitron'</p>
+            <h3>Menu font</h3>
+            <p class="example2">'Inter Tight'</p>
+            <h3>Current Fonts Tab</h3>
+            <p class="example3">'Quantico'</p>
+            <h3>Fonts used in Colors Tab</h3>
+            <p class="example4">'Turret Road'</p>
+            <h3>Fonts used in Purple Tab</h3>
+            <p class="example5">'Bangers'</p>
+          </th>
+          <td>
+            <h3> font-family: 'Quantico';
+              font-style: italic;
+              font-weight: 700;</h3>
+            <p class="quantico-italic">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce nibh. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Quisque porta. Aliquam id dolor. Etiam quis quam. Aliquam erat volutpat.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3> font-family: 'Quantico';
+              font-style: normal;
+              font-weight: 400;</h3>
+            <p class="quantico-normal">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce nibh. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Quisque porta. Aliquam id dolor. Etiam quis quam. Aliquam erat volutpat.</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h3 class="h3intertight"> font-family: 'Inter Tight';
+              font-style: normal;
+              font-weight: 400;</h3>
+            <p class="inter-tight">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce nibh. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Quisque porta. Aliquam id dolor. Etiam quis quam. Aliquam erat volutpat.</p>
+          </td>
+        </tr>
+      </table>
+      <!-- Colors -->
+      <table id="colors">
+        <tr>
+          <td>
+            <h2>Colors</h2>
+            <table class="color-example">
+              <tr>
+                <td>bg color</td>
+                <td>background: rgb(238,174,202);
+                  background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%)</td>
+                <td class="resultbg">color result</td>
+              </tr>
+              <tr>
+                <td>fonts tab bg color</td>
+                <td>background: rgb(93,138,168);
+                  background: linear-gradient(90deg, rgba(93,138,168,1) 0%, rgba(8,98,157,1) 100%)</td>
+                <td class="resultfonts">color result</td>
+              </tr>
+              <tr>
+                <td>colors tab bg color</td>
+                <td>background: rgb(255,83,35);
+                  background: linear-gradient(90deg, rgba(255,83,35,1) 0%, rgba(255,0,0,1) 100%)</td>
+                <td class="resultcolor">color result</td>
+              </tr>
+              <tr>
+                <td>purple tab bg color</td>
+                <td>background: rgb(138,80,177);
+                  background: linear-gradient(90deg, rgba(138,80,177,1) 0%, rgba(114,14,182,1) 100%)</td>
+                <td class="resultpurple">color result</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- Style Purple -->
+      <table id="purple">
+        <tr>
+          <td>
+            <h2>Purple</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Fusce nibh. Maecenas fermentum, sem in pharetra pellentesque, velit turpis volutpat ante, in pharetra metus odio a lectus. Integer rutrum, orci vestibulum ullamcorper ultricies, lacus quam ultricies odio, vitae placerat pede sem sit amet enim. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Quisque porta. Aliquam id dolor. Etiam quis quam. Aliquam erat volutpat. </p>
+            <p>Maecenas ipsum velit, consectetuer eu lobortis ut, dictum at dui. Vivamus luctus egestas leo. Morbi imperdiet, mauris ac auctor dictum, nisl ligula egestas nulla, et sollicitudin sem purus in lacus. Fusce dui leo, imperdiet in, aliquam sit amet, feugiat eu, orci. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris metus. Ut tempus purus at lorem. In enim a arcu imperdiet malesuada. Et harum quidem rerum facilis est et expedita distinctio.</p>
+          </td>
+          <td>
+
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+
+</html>
